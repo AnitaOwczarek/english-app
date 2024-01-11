@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container'
 import './Home.css'
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -14,19 +14,19 @@ const Home = () => {
           <Container fluid="md">
           <Row className='levels-row'>
             <Col xs={12} sm={4}>
-              {/* <Link to="/beginner">
+              <Link to="/beginner">
               <Button className="home-level" variant="outline-secondary" >Beginner</Button>
               </Link>
             </Col>
             <Col xs={12} sm={4}>
               <Link to="/intermediate">
                 <Button className="home-level" variant="outline-secondary">Intermediate</Button>
-              </Link> */}
+              </Link>
             </Col>
             <Col xs={12} sm={4}>
-              {/* <Link to="/advanced"> */}
+              <Link to="/advanced">
                 <Button className="home-level" variant="outline-secondary">Advanced</Button>
-              {/* </Link> */}
+              </Link>
             </Col>
           </Row>
           </Container>
